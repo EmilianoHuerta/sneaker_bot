@@ -19,7 +19,7 @@ def timeme(method):
 @timeme
 def order():
     # add to cart
-    driver.find_element_by_name('commit').click()
+    driver.find_element_by_class_name('fulfillment-add-to-cart-button').click()
 
     # wait for checkout button element to load
     time.sleep(.5)
