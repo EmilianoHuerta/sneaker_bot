@@ -1,4 +1,3 @@
-  
 from selenium import webdriver
 from config import keys
 import time
@@ -25,12 +24,16 @@ def order():
     time.sleep(.5)
     checkout_element_2 = driver.find_element_by_class_name('go-to-cart-button')
     checkout_element_2.click()
+    time.sleep(.5)
     checkout_element_3 = driver.find_element_by_class_name('btn btn-lg btn-block btn-primary')
     checkout_element_3.click()
+    time.sleep(.5)
     guest_click = driver.find_element_by_class_name('btn btn-secondary btn-lg cia-guest-content__continue js-cia-submit-button js-cia-guest-button')
     guest_click.click()
+    time.sleep(.5)
     switch_shipping = driver.find_element_by_class_name('ispu-card__switch')
     switch_shipping.click()
+    time.sleep(.5)
 
     # fill out checkout screen fields
     driver.find_element_by_xpath('//*[@id="consolidatedAddresses.ui_address_5.firstName""]').send_keys(keys['first_name'])

@@ -1,5 +1,5 @@
 keys = {
-        "product_url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-3090-24gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429434.p?skuId=6429434",
+        "product_url": "https://www.bestbuy.com/site/nvidia-titan-rtx-24gb-gddr6-pci-express-3-0-graphics-card/6320585.p?skuId=6320585",
         "first_name": "test name",
         "last_name": "name",
         "email": "email@gmail.com",
