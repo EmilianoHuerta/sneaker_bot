@@ -22,10 +22,10 @@ def order():
 
     # wait for checkout button element to load
     time.sleep(.5)
-    checkout_element_2 = driver.find_element_by_class_name('go-to-cart-button')
+    checkout_element_2 = driver.find_element_by_class_name('cart-link')
     checkout_element_2.click()
-    time.sleep(.5)
-    checkout_element_3 = driver.find_element_by_class_name('btn btn-lg btn-block btn-primary')
+    time.sleep(2)
+    checkout_element_3 = driver.find_element_by_class_name('checkout-buttons__checkout')
     checkout_element_3.click()
     time.sleep(.5)
     guest_click = driver.find_element_by_class_name('btn btn-secondary btn-lg cia-guest-content__continue js-cia-submit-button js-cia-guest-button')
